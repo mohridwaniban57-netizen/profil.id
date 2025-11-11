@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Pribadi Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header" id="judul" title="Halaman Profil Pribadi">
+    <h1>Profil Pribadi Saya</h1>
+  </div>
+
+  <!-- Bagian Identitas -->
+  <div class="container identitas">
+    <div class="box">
+      <p><strong>NAMA LENGKAP :</strong> Moh. Ridwan</p>
+      <p><strong>NIM :</strong> 246270007</p>
+      <p><strong>HOBI :</strong> Membaca, Menulis, dan Berolahraga</p>
+    </div>
+  </div>
+
+  <!-- Biodata -->
+  <div class="container Biodata">
+    <h2>BIODATA DIRI</h2>
+    <div class="box">
+      <table>
+        <tr>
+          <th>Nama</th>
+          <td>Moh. Ridwan</td>
+        </tr>
+        <tr>
+          <th>Tanggal Lahir</th>
+          <td>21 Januari 2006</td>
+        </tr>
+        <tr>
+          <th>Alamat</th>
+          <td>Jl. Padat karya, Tondo, Sulawesi Tengah, Indonesia</td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td>mohridwaniban57@gamil.com</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+<!-- Foto Profil -->
+  <div class="container daftar-hobi">
+    <h2>HOBI DAN AKTIVITAS</h2>
+    <div class="flex-list">
+      <div class="list-box" title="Daftar Hobi">
+        <h3>Hobi</h3>
+        <ul>
+          <li>Membaca buku</li>
+          <li>Menulis artikel</li>
+          <li>Fotografi</li>
+        </ul>
+      </div>
+      <div class="list-box" title="Aktivitas Favorit">
+        <h3>Aktivitas</h3>
+        <ol>
+          <li>Jogging pagi</li>
+          <li>Belajar coding</li>
+          <li>Bermain gitar</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <!-- Formulir -->
+  <div class="container formulir">
+    <h2>FORMULIR PROFIL</h2>
+    <div class="box">
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label>Jenis Kelamin:</label>
+          <div class="radio-group">
+            <label><input type="radio" name="gender" value="Laki-laki"> Laki-laki</label>
+            <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Hobi:</label>
+          <div class="checkbox-group">
+            <label><input type="checkbox" name="hobi" value="Membaca"> Membaca</label>
+            <label><input type="checkbox" name="hobi" value="Menulis"> Menulis</label>
+            <label><input type="checkbox" name="hobi" value="Olahraga"> Olahraga</label>
+            <label><input type="checkbox" name="hobi" value="Olahraga"> Diskusi</label>
+            <label><input type="checkbox" name="hobi" value="Olahraga"> Belajar</label>
+            <label><input type="checkbox" name="hobi" value="Olahraga"> Jalan-jalan</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Foto Profil -->
+  <div class="container foto-profil">
+    <h2>Foto Profil</h2>
+    <div class="box">
+      <img src="/Profil/rr.jpeg" alt="Foto Profil Ridwan" width="200" height="185" title="Foto Profil Saya">
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 MOH RIDWAN | @INTERO PRO</p>
+  </div>
+
+</body>
+</html>
